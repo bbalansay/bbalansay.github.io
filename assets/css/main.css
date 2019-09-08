@@ -2697,8 +2697,8 @@ input, select, textarea {
 
 			#main > section:first-child {
 				border-top: 0;
-				margin-top: 0;
-				padding-top: 0;
+				margin-top: 0 !important;
+				padding-top: 0 !important;
 			}
 
 /* Poptrox */
