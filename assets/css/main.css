@@ -2598,7 +2598,7 @@ input, select, textarea {
 		background-position: top left,				 right bottom;
 		background-repeat: repeat,					 no-repeat;
 		background-size: auto, 						 auto 120%;
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(255, 255, 255, 0.75);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
@@ -2633,7 +2633,7 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 0.75);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
