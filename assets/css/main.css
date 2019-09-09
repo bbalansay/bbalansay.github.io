@@ -2206,7 +2206,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 1.5em;
+				font-size: 1.75em;
 			}
 
 /* Labeled Icons */
@@ -2651,7 +2651,7 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(255, 255, 255, 0.75);
 		}
 
 	#footer .copyright {
