@@ -23,7 +23,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -2055,7 +2056,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			opacity: 0.2;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -2071,15 +2072,15 @@ input, select, textarea {
 				-ms-transition: opacity 0.2s ease-in-out;
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
-				border: solid 3px rgba(255, 255, 255, 0.5);
+				/*border: solid 3px rgba(255, 255, 255, 0.5);*/
 				color: #fff;
-				content: 'View';
+				content: 'View Repository';
 				display: inline-block;
-				font-size: 0.8em;
+				font-size: 1em;
 				font-weight: 400;
 				left: 50%;
 				line-height: 2.25em;
-				margin: -1.25em 0 0 -3em;
+				margin: -1.25em 0 0 -5em;
 				opacity: 0;
 				padding: 0 1.5em;
 				position: absolute;
@@ -2633,7 +2634,7 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.75);
+			color: rgba(255, 255, 255, 0.65);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2647,23 +2648,23 @@ input, select, textarea {
 /* Footer */
 
 	#footer .icons {
-		margin: 1em 0 0 0;
+		margin: 0.5em 0 0 0;
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.75);
+			color: rgba(255, 255, 255, 0.9);
 		}
 
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
+		color: rgba(255, 255, 255, 0.9);
 		font-size: 0.8em;
 		list-style: none;
-		margin: 1em 0 0 0;
+		margin: 0.5em 0 0 0;
 		padding: 0;
 	}
 
 		#footer .copyright li {
-			border-left: solid 1px rgba(255, 255, 255, 0.25);
+			border-left: solid 1px rgba(255, 255, 255, 0.9);
 			display: inline-block;
 			line-height: 1em;
 			margin-left: 0.75em;
@@ -2687,6 +2688,7 @@ input, select, textarea {
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
+		background-color: #fffdfa;
 	}
 
 		#main > section {
